@@ -13,5 +13,7 @@ experience for both buyers and sellers
 Front End: HTML, CSS, & JavaScript  
 Back End: Python & PHP 
 Database: MySQL 
-Server: Apache. 
-Software Used: Figma, Draw.io, VsCode, XAMPP. 
+Server: Apache
+
+# Software Used: 
+Figma, Draw.io, VsCode, XAMPP. 
