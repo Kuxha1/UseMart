@@ -1,0 +1,10 @@
+green color = #36A02D
+
+button CSS.
+{
+            background-color: #36A02D;
+            color: #fff;
+            border: 5px solid white;
+            border-radius: 15px;
+            font-size: 20px;
+}

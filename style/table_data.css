@@ -1,0 +1,196 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html{
+    overflow: auto;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+html::-webkit-scrollbar {
+display: none;  /* Chrome, Safari, and Opera */
+        }
+
+body {
+    background-color: #50B498;
+}
+
+/* Header styles */
+.header {
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #16C47F;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    text-align: center;
+    width: 100%;
+}
+
+
+.logo {
+    height: 60px;
+    object-fit: contain;
+    background-color:#16C47F;
+}
+
+.usemart,h1{
+    text-align: center;
+    height: 100%;
+    display: flex;
+    color: #ffffff;
+}
+
+.logout-button:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: #2c3e50 ;
+    border: 5px solid #2c3e50;   
+}
+.logout-button{
+    background-color: #2c3e50;
+    color: #fff;
+    border: 5px solid #2c3e50;
+    border-radius: 10px;
+    font-size: 20px;
+    height: 60px;
+    width: 150px;    
+    cursor: pointer;
+    margin-left: auto;
+}
+.sidebar {
+    width: 200px;
+    background: #2c3e50;
+    color: white;
+    height: 100vh;
+    padding: 15px;
+    position: fixed;
+    font-size: 20px;
+}
+.sidebar a {
+    display: block;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    margin: 5px 0;
+    border-bottom: #ffffff solid 1px;
+    transition: all 0.3s ease;
+}
+.sidebar a:hover {
+    transform: scale(1.1);
+}
+
+/* Table Styles */
+table {
+    width: 1300px;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-left: 220px;
+}
+
+
+/* Table Header */
+thead {
+    background: #2c3e50;
+    color: white;
+    font-size: 18px;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+/* Profile Image */
+td img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+/* Buttons */
+button {
+    padding: 6px 12px;
+    margin: 4px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* Edit Button */
+.Edit {
+    background: #007bff;
+    color: white;
+}
+
+.Edit:hover {
+    background: #0056b3;
+}
+
+/* Delete Button */
+.delete {
+    background: #dc3545;
+    color: white;
+}
+
+.delete:hover {
+    background: #a71d2a;
+}
+
+.Heading {
+    margin-top: 20px;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+.h {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 500;
+    background-color: #2c3e50;
+    text-align: center;
+    width: 400px;
+    border-radius: 5px;
+    margin-left: 220px;
+    padding: 5px 5px;
+}
+
+/* Download Data Button */
+.downloadData-btn {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.downloadData-btn:hover {
+    transform: scale(1.1);
+    background-color: #2c3e50;
+}
+
+.Chart{
+    width: 1300px; 
+    margin-left: 220px;
+}
+
+
